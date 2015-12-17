@@ -5,7 +5,7 @@ type page struct {
 	PageTotal   int
 	CurrentPage int
 	PrevPage    int //empty means disabled
-	NextPage    int //empty means disabled
+	NextPage    int //equal CurrentPage means disabled
 	ItemTotal   int
 	ItemFirst   int
 	ItemLast    int
